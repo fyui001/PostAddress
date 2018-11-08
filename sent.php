@@ -13,7 +13,7 @@ function isAjax(){
 /* データベース設定の読み込み */
 require_once('db.php');
 function search($PostNum){
-  try{
+  try{ 
     $db = getDb();
     $Message = '';
     $Status = true;
