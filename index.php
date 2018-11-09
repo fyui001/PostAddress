@@ -2,7 +2,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="ja"> 
+<html lang="ja">
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="Mystyle.css">
