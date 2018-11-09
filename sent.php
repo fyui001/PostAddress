@@ -12,6 +12,8 @@ function isAjax(){
 
 /* データベース設定の読み込み */
 require_once('db.php');
+
+/* 関数定義 */
 function search($PostNum){
   try{
     $db = getDb();
