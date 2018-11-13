@@ -1,9 +1,9 @@
 <?php
 /* DB接続設定*/
 function getDb(){
-  $dsn = 'mysql:dbname=JapanAddress; host=192.168.33.10; charset=utf8;';
-  $usr = 'root';
-  $passwd = 'hogehoge';
+  $dsn = 'mysql:dbname='DBname'; host='host'; charset=utf8;';
+  $usr = 'username';
+  $passwd = 'password';
 
   try{
     $db = new PDO($dsn, $usr, $passwd);
